@@ -1,0 +1,11 @@
+@media (max-width: 600px) {
+    .features-cards {
+        flex-direction: column-reverse;
+        display: flex;
+    }
+
+    @media (max-width: 1000px) {
+        .hero {
+            flex-direction: column-reverse;
+        }
+    }
